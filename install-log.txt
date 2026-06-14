@@ -1,0 +1,29 @@
+﻿npm.cmd : npm error code EPERM
+At line:1 char:1
++ & 'C:\Program Files\nodejs\npm.cmd' install --no-audit --no-fund 2>&1 ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (npm error code EPERM:String) [],  
+   RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+npm error syscall rmdir
+npm error path E:\PROJECT\node_modules\.lucide-react-40mSZYPo\dist\esm\shared
+npm error errno -4048
+npm error [Error: EPERM: operation not permitted, rmdir 
+'E:\PROJECT\node_modules\.lucide-react-40mSZYPo\dist\esm\shared'] {
+npm error   errno: -4048,
+npm error   code: 'EPERM',
+npm error   syscall: 'rmdir',
+npm error   path: 
+'E:\\PROJECT\\node_modules\\.lucide-react-40mSZYPo\\dist\\esm\\shared'
+npm error }
+npm error
+npm error The operation was rejected by your operating system.
+npm error It's possible that the file was already in use (by a text editor or 
+antivirus), or that you lack permissions to access it.
+npm error
+npm error If you believe this might be a permissions issue, please 
+double-check the permissions of the file and its containing directories, or 
+try running the command again as root/Administrator.
+npm error A complete log of this run can be found in: C:\Users\user\AppData\Loc
+al\npm-cache\_logs\2026-06-14T11_05_16_096Z-debug-0.log

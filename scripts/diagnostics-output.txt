@@ -1,0 +1,175 @@
+Diagnostics run at 2026-06-14T12:13:27.309Z
+Path=c:\Users\user\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\user\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\.dotnet\tools
+
+--- node version ---
+v24.16.0
+
+--- npm version (ERROR) ---
+spawnSync C:/Program Files/nodejs/npm.cmd EINVAL
+stdout:
+
+stderr:
+
+--- npm bin-links config (ERROR) ---
+spawnSync C:/Program Files/nodejs/npm.cmd EINVAL
+stdout:
+
+stderr:
+
+--- npm bin (ERROR) ---
+spawnSync C:/Program Files/nodejs/npm.cmd EINVAL
+stdout:
+
+stderr:
+
+--- where node ---
+C:\Program Files\nodejs\node.exe
+
+--- where npm ---
+C:\Program Files\nodejs\npm
+C:\Program Files\nodejs\npm.cmd
+
+--- npm list (ERROR) ---
+spawnSync C:/Program Files/nodejs/npm.cmd EINVAL
+stdout:
+
+stderr:
+
+--- ls .bin (ERROR) ---
+Command failed: cmd.exe /c dir /b node_modules\.bin
+The system cannot find the file specified.
+
+stdout:
+
+stderr:
+The system cannot find the file specified.
+
+--- tsc frontend (ERROR) ---
+Command failed: C:/Program Files/nodejs/node.exe E:\PROJECT\node_modules\typescript\lib\tsc.js -p tsconfig.json --noEmit
+node:internal/modules/cjs/loader:1503
+  throw err;
+  ^
+
+Error: Cannot find module 'E:\PROJECT\node_modules\typescript\lib\tsc.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1500:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)
+    at Module._load (node:internal/modules/cjs/loader:1285:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v24.16.0
+
+stdout:
+
+stderr:
+node:internal/modules/cjs/loader:1503
+  throw err;
+  ^
+
+Error: Cannot find module 'E:\PROJECT\node_modules\typescript\lib\tsc.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1500:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)
+    at Module._load (node:internal/modules/cjs/loader:1285:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v24.16.0
+
+--- tsc server (ERROR) ---
+Command failed: C:/Program Files/nodejs/node.exe E:\PROJECT\node_modules\typescript\lib\tsc.js -p tsconfig.server.json --noEmit
+node:internal/modules/cjs/loader:1503
+  throw err;
+  ^
+
+Error: Cannot find module 'E:\PROJECT\node_modules\typescript\lib\tsc.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1500:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)
+    at Module._load (node:internal/modules/cjs/loader:1285:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v24.16.0
+
+stdout:
+
+stderr:
+node:internal/modules/cjs/loader:1503
+  throw err;
+  ^
+
+Error: Cannot find module 'E:\PROJECT\node_modules\typescript\lib\tsc.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1500:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)
+    at Module._load (node:internal/modules/cjs/loader:1285:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v24.16.0
+
+--- vite build (ERROR) ---
+Command failed: C:/Program Files/nodejs/node.exe E:\PROJECT\node_modules\vite\bin\vite.js build
+node:internal/modules/cjs/loader:1503
+  throw err;
+  ^
+
+Error: Cannot find module 'E:\PROJECT\node_modules\vite\bin\vite.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1500:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)
+    at Module._load (node:internal/modules/cjs/loader:1285:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v24.16.0
+
+stdout:
+
+stderr:
+node:internal/modules/cjs/loader:1503
+  throw err;
+  ^
+
+Error: Cannot find module 'E:\PROJECT\node_modules\vite\bin\vite.js'
+    at Module._resolveFilename (node:internal/modules/cjs/loader:1500:15)
+    at wrapResolveFilename (node:internal/modules/cjs/loader:1071:27)
+    at defaultResolveImplForCJSLoading (node:internal/modules/cjs/loader:1095:10)
+    at resolveForCJSWithHooks (node:internal/modules/cjs/loader:1116:12)
+    at Module._load (node:internal/modules/cjs/loader:1285:25)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:255:19)
+    at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+    at node:internal/main/run_main_module:33:47 {
+  code: 'MODULE_NOT_FOUND',
+  requireStack: []
+}
+
+Node.js v24.16.0
+

@@ -1,0 +1,3 @@
+removed node_modules
+removed package-lock.json
+npm install failed: spawnSync C:/Program Files/nodejs/npm.cmd EINVAL

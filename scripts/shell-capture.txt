@@ -1,0 +1,54 @@
+--- pwd ---
+E:\PROJECT
+
+--- dir ---
+ Volume in drive E is BETA
+ Volume Serial Number is 8E7C-8C21
+
+ Directory of E:\PROJECT
+
+13/06/2026  20:33    <DIR>          .
+13/06/2026  20:33    <DIR>          ..
+13/06/2026  21:28             1,066 package.json
+13/06/2026  20:36               653 tsconfig.json
+13/06/2026  20:36               479 tsconfig.server.json
+13/06/2026  20:36               438 vite.config.ts
+13/06/2026  20:36                97 .gitignore
+13/06/2026  20:38    <DIR>          server
+13/06/2026  20:38    <DIR>          src
+13/06/2026  20:40               321 index.html
+13/06/2026  20:44               702 README.md
+14/06/2026  14:08             1,363 install-log.txt
+14/06/2026  14:46         1,591,098 install-output.txt
+14/06/2026  14:19    <DIR>          scripts
+14/06/2026  14:51            33,440 install-full.log
+14/06/2026  15:13                 0 install-out.txt
+14/06/2026  15:13            55,005 install-err.txt
+14/06/2026  15:13                16 debug-test.txt
+14/06/2026  15:13                 6 debug-shell.txt
+14/06/2026  15:13                 0 env-debug.txt
+              15 File(s)      1,684,684 bytes
+               5 Dir(s)  31,212,208,128 bytes free
+
+--- node-version ---
+v24.16.0
+
+--- npm-version ---
+ERROR:
+spawnSync C:/Program Files/nodejs/npm.cmd EINVAL
+
+--- where-node ---
+C:\Program Files\nodejs\node.exe
+
+--- where-npm ---
+C:\Program Files\nodejs\npm
+C:\Program Files\nodejs\npm.cmd
+
+--- npm-bin-links ---
+ERROR:
+spawnSync C:/Program Files/nodejs/npm.cmd EINVAL
+
+--- npm-bin ---
+ERROR:
+spawnSync C:/Program Files/nodejs/npm.cmd EINVAL
+

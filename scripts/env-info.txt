@@ -1,0 +1,21 @@
+--- pwd ---
+E:\PROJECT
+
+--- node version ---
+v24.16.0
+
+--- npm version ---
+ERROR: spawnSync C:/Program Files/nodejs/npm.cmd EINVAL
+--- where node ---
+C:\Program Files\nodejs\node.exe
+
+--- where npm ---
+C:\Program Files\nodejs\npm
+C:\Program Files\nodejs\npm.cmd
+
+--- npm config list --json ---
+ERROR: spawnSync C:/Program Files/nodejs/npm.cmd EINVAL
+--- npm config get bin-links ---
+ERROR: spawnSync C:/Program Files/nodejs/npm.cmd EINVAL
+--- npm bin ---
+ERROR: spawnSync C:/Program Files/nodejs/npm.cmd EINVAL

@@ -1,0 +1,66 @@
+Install log run at 2026-06-14T12:13:30.394Z
+PATH=c:\Users\user\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\user\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Users\user\.dotnet\tools
+
+--- node version ---
+
+command: C:/Program Files/nodejs/node.exe --version
+
+status: 0
+
+stdout:
+v24.16.0
+
+
+--- npm version ---
+
+command: C:/Program Files/nodejs/npm.cmd --version
+
+status: null
+
+error: spawnSync C:/Program Files/nodejs/npm.cmd EINVAL
+
+--- where node ---
+
+command: cmd.exe /c where node
+
+status: 0
+
+stdout:
+C:\Program Files\nodejs\node.exe
+
+
+--- where npm ---
+
+command: cmd.exe /c where npm
+
+status: 0
+
+stdout:
+C:\Program Files\nodejs\npm
+C:\Program Files\nodejs\npm.cmd
+
+
+--- npm config get bin-links ---
+
+command: C:/Program Files/nodejs/npm.cmd config get bin-links
+
+status: null
+
+error: spawnSync C:/Program Files/nodejs/npm.cmd EINVAL
+
+--- npm bin ---
+
+command: C:/Program Files/nodejs/npm.cmd bin
+
+status: null
+
+error: spawnSync C:/Program Files/nodejs/npm.cmd EINVAL
+
+--- npm install ---
+
+command: C:/Program Files/nodejs/npm.cmd install --no-audit --no-fund --legacy-peer-deps --verbose
+
+status: null
+
+error: spawnSync C:/Program Files/nodejs/npm.cmd EINVAL
+
